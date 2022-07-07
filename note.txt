@@ -27,3 +27,56 @@ result = a = b= 3 + c;
 出现在scanf里的东西是我们一定要输入的东西
 scanf("price%d", a);
 必须输入price，否则会出错！
+
+
+if语句补充
+if后面不一定非要加大括号{} 但是不加的话，底下只能最多有一句
+int main () {
+	if (3 < 2)
+		printf("1");
+		// printf("2"); // 这行会报错！！！！！！！
+	else
+		printf("error");
+}
+
+
+分支：
+为啥非要用switch-case？？？我else if不行吗？
+如果用else if，则每个分支都要走（判断）；
+switch的话，抓到一个数值就能执行相应的代码，
+比如说直接就跳到某数值的位置，之前的case都不会判断
+switch(switch表达式){......}
+switch表达式必须必须是INT！！！
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
